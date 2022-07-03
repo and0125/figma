@@ -114,7 +114,82 @@ Brittney is an outgoing woman who finds it hard to do the right thing. She has c
 
 YOu can import the task flow too. 
 
+## Wireframes vs Hi-Fi
 
+Wireframes are basic templates for a website, whereas high fidelity mock-ups are more put together.
+
+A Wireframe of a task flow can be created quickly, without concern about the detailed design elements. It can also be tested quickly. 
+
+A Wireframe should have minimal colors, one or two at the most. It's not about the color at this point, just a way to talk about the general design elements and functionalities. 
+
+You can take things a bit further with adding a font, designing more sketch like documents that you can test with.
+
+Once these are done, you can build a hi-fi, beautiful mockup. 
+
+## Introducing Frames
+
+It starts with a blank canvas.
+
+You can start by adding a frame to the project.
+
+A frame is like a page or interface. You can draw the frame at any size. 
+
+To get frames that are specific to a size, use the premade frames tools. You want to pick something close enough to the specifics of the job. You can google the most common phone and desktop size and start from there too. Can be useful to know the specs of the client's tech to make sure the mockup looks great on their devices. 
+
+You can add multiple frames to a single project, you can move then to order the frames within the project file.
+
+Recommended that you name each frame for the number of steps in the task flow. 
+
+You can use versioning within the document as well as in the title of the figma project, or design file (a figma design file).
+
+## The basics of Text and Fonts
+
+There are two ways to make textboxes from the T tab:
+
+- click box: this will allow for free text, with no box limits.
+- click and drag box: this will form a box in which the text will be in, and will not adjust to the text.
+
+
+Note: At the wireframe stage, make sure to keep all wording as simple as you can, so that the testing is focused, and the reviewers don't focus on the wrong things. 
+
+Sometimes in Figma undo doesn't quite work effectively, so you want to make sure you select the object you want to undo when you hit the command.
+
+If you are picking a font size, there are ways to get a preview of the font on the device screen to really judge this well. an alternative is to set the zoom of the design file to 100% before judging any font size. 
+
+When doing wireframes pick the planest fonts you can thing of. The ones will little personality and are professional and have no brush script:
+
+- Roboto is possibly the most generic to use. 
+- Arial and Calibri are too microsoft-y to be seen as generic.
+
+
+If you have it include the logo of the application in black and white in your wireframe. 
+
+Do a bit of design in the wireframe, but not an excessive amount -- mainly this should include the object placement. 
+
+## Rectangles, Circles, and Rounded Corners
+
+You can use the rectangles and other shapes from the shapes menu. 
+
+You can Layer shapes as well.
+
+There are also shortcuts for several of these features that can be learned. 
+
+There's also an arrange menu in the Figma file menu. You can use send forward and send backward. 
+
+## Additional Notes
+
+After watching for a bit, I left off taking notes for each section, and just followed the demo. This section will capture one off notes I could stand to remember.
+
+- light blue or grey are good color choices for wireframes, along with black or white. Can add a single color just for popo if those are known for the client. 
+- you can choose the formatting that the color are displayed in. These options include hexadecimal, css (rgba), and other options.
+- There's an eyedropper tool for color as well. 
+- There's also a document color tool that keeps references to all the colors used in the current project file. 
+- There's a set default properties menu in the paid version of Figma, which can enable you to set a default for different shapes (i.e. whether or not they start with a border, what colors shapes start, etc.)
+- You can copy properties from each shape and paster those properties onto another using the edit menu as well by using the figma menu or Control+shift+c and -v. 
+- The shortcut control+D will redo the very last thing you did, which is really helpful when making multiple copies of the same shape.
+- Remember that when you build an icon, you do this from 100% zoom, so that you get a sense of how big these icons will be on screen.
+- The hamburger menu is also called a `nav sandwich`
+- 
 
 
 
