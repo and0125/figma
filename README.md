@@ -207,6 +207,11 @@ After watching for a bit, I left off taking notes for each section, and just fol
 - You can use pages to separate content. You can organize these pages as mobile vs. desktop designs, or possibly to have each common frame in a separate page.   Also can be helpful to keep your task flow and user persona in a separate page in the project.
 - UI Kits are design systems to stay within the design framework of a full site. A style guide is a less detailed UI kit. Pages are used to organize these systems for ease of use by others.
 - 15 or 16 point fonts are best for mobile apps. 11 or 12 point fonts will feel small on mobile devices and desktops. 
+- use the Figma app for testing out the mobile design on an actual device to make sure it presents well. If you don't like it on your phone, change it. 
+
+
+## Personal Critique
+
 
 
 
