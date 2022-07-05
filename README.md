@@ -189,7 +189,13 @@ After watching for a bit, I left off taking notes for each section, and just fol
 - The shortcut control+D will redo the very last thing you did, which is really helpful when making multiple copies of the same shape.
 - Remember that when you build an icon, you do this from 100% zoom, so that you get a sense of how big these icons will be on screen.
 - The hamburger menu is also called a `nav sandwich`
-- 
+- Frames are a way to control how contents are clipped to avoid having images outside of borders. 
+    - Frames are just like groups except with additional features, and many advance developers stop using groups entirely.
+    - These frames can be used to develop specific parts of the wireframe in detail, to keep the other content from being moved or changed.
+        - like designing the nav bar specifically without changing other parts. 
+    - Frames also can have constraints for where items belong in the frame, so you can adjust easily to bigger and smaller screen sizes. 
+- Frames can be used as a screen size for content, and also for frames that are taking the place of groups in the screen size.
+
 
 
 
