@@ -195,6 +195,18 @@ After watching for a bit, I left off taking notes for each section, and just fol
         - like designing the nav bar specifically without changing other parts. 
     - Frames also can have constraints for where items belong in the frame, so you can adjust easily to bigger and smaller screen sizes. 
 - Frames can be used as a screen size for content, and also for frames that are taking the place of groups in the screen size.
+- SVG is better phot quality than PNG, but is more complicated. You can get a good quality PNG, but it will be a much larger file. It's much more easy to use the svg in professional design. 
+    - the SVG version can be made transparent by removing the frame, and the SVG file is scalable, it can be colored, and can also be adjusted in Figma to make them a custom symbol. 
+- There's also a Figma community that includes icons and other things. You will have to do more searching to find good stuff in the Figma community. Also, you will end up downloading things from the Figma community, which is called duplicating. this saves a copy of the project to your figma flow. The duplicates then are saved into your drafts. In Figma, everything you duplicate or create is saved in the cloud. You'll need to keep your workspace clean and organized to keep track of files, because you will pull in many other projects. 
+    - these additional icons get copied into working projects as an asset. 
+    - you want to detach the instance using the right-click menu. 
+- when you bring in icons, they may have different stroke values or other properties, and there are ways to make these additional icons look consistent. 
+    - the stroke size of the SVG depends on the last stroke size you used. 
+- Figma plug-ins can be installed, and these are a way to extending figma. There's an icon plug-in, but there are others that extend what figma can do. They have click and drop user interfaces to pull from the items. 
+- When you use a plug-in, it can be easier to drag the item into the project outside of a frame, so that you can deal with the size of it and its frame before adding it to your design.
+- You can use pages to separate content. You can organize these pages as mobile vs. desktop designs, or possibly to have each common frame in a separate page.   Also can be helpful to keep your task flow and user persona in a separate page in the project.
+- UI Kits are design systems to stay within the design framework of a full site. A style guide is a less detailed UI kit. Pages are used to organize these systems for ease of use by others.
+- 15 or 16 point fonts are best for mobile apps. 11 or 12 point fonts will feel small on mobile devices and desktops. 
 
 
 
