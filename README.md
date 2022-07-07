@@ -210,7 +210,131 @@ After watching for a bit, I left off taking notes for each section, and just fol
 - use the Figma app for testing out the mobile design on an actual device to make sure it presents well. If you don't like it on your phone, change it. 
 
 
-## Personal Critique
+## Designing responsive websites in Figma
+
+a website is a collection of content for a person or organization that is published on the web, and you need a browser to access it.
+
+When you get to the browser, you type in the domain name to get to the website. 
+
+You can access websites from different devices as well. 
+
+At this stage, there are two types of websites:
+
+- porfolio websites: 
+    - these are normal websites; sites you go on to read about information. These are like market sites, splash pages, wiki pages, etc. 
+- website applications: web apps; these are the types of websites you interact with for results. There is an application built in that gets data from the user and gives users results based on the data provided. 
+
+### Jakob's principle
+
+This is a principle of design: since users go to other sites, it's best to design your website like websites the users are used to. 
+
+This means a shopping site should be similar to other shopping web applications that already exist. Since the users are already used to websites where they buy items, so that they don't have to learn a new workflow. s
+
+Most people don't want to learn a new workflow to do a familiar task. 
+
+These can be slightly different, but should maintain similar patterns of commonly browsed websites so that the user experience isn't a pain point. The experience is similar, so the app is easy to use. 
+
+First thing to do when designing a web app is to design things like web sites that serve a similar function. This means you'll have a site that's more friendly for users. Do the same thing for portfolio websites too. 
+
+Model the design to look like popular websites.
+
+This has an effect on your users that is understated, but completely noticeable when its wrong. 
+
+### Styles and Components
+
+#### Styles
+
+This is the appearance pattern used for the design of the website or the application. The effects, the buttons, etc. You need to design these first before making the full website design, because it will help you maintain consistency. 
+
+This should include color, button design, card design, hover effects, onclick effects, transitions, etc. 
+
+These don't have to always be the same, but they need to be consistent -- you can have multiple effects as long as the design is appealing. 
+
+The font families, sizes, styling, line height, letter spaces, etc. need to be consistent. 
+
+Once these choices are made, you should save them in a style library. 
+
+The photos and images used in the site should also be consistent with the style guide. 
+
+#### Components
+
+Components are portions of your website. These aren't the whole website, but small parcels that are separated by styles. 
+
+You can bring components together to make the whole website.
+
+With components, you can easily fix and update the components separately, without having to change the entire website. 
+
+#### Styles in Figma
+
+You can use the design tab to create an object in Figma, and then, when you look at the Fill section, there is a create style button.
+
+This will bring up a prompt to create a new style. You can name these styles, then create the style.
+
+When you create a style, you have saved it to your style library. You can save these for different objects in your design. 
+
+You can create a color for the text, and for anything else.
+
+To confirm the styles have been saved, you can click in an empty space to see your available styles. 
+
+You can also create text styles too. 
+
+You can use color styles in your design by clicking on an element then using the same button in the fill menu to choose the color style. This helps you maintain the consistency on the site design. 
+
+In real life, you'll have several design colors in your palette. 
+
+This is helpful, because when you are having a design review, you can adjust the color from the style library instead of changing them object by object. This keeps the whole design process synced. 
+
+You can delete styles by clicking it and hitting delete. 
+
+#### Text Styles
+
+To create a type of text that'll be used for a specific component, you can specify the text size, the boldness, letter spacing, line height, etc. once the settings are acceptable, you can select the text box and go to the Text menu and click on the button (same patter as in the fill menu) and select save the style and name it. 
+
+You can use this the same way you use the color styles.
+
+#### Creating One Component
+
+Example is creating a button component. 
+
+Started with the text, then used the text style for buttons. 
+
+hold the shift key and the A key to create an auto-layout frame for the text. You can then align the text to the center of the frame, and also set the padding spacing. You can then give the frame a color, and then color the text again for contrast. 
+
+Can add rounded corners to the button. 
+
+Once created and designed, you can select the diamond of circles in the top of the Figma screen to create the button as a component. This will save the object as a component. 
+
+You can see the saved components in the assets tab in the left hand menu. this is where you can grab the button component to use. Don't use the master component, the object the component is built from, but grab child components from the asset menu. You can edit the text of the component in the child component.
+
+You can change the text and color of the child buttons to maintain the shape, padding, and other features of the buttons. 
+
+You don't have to change the master component every time unless you want to affect every child component. If you want to change only one child component, just un-bind the color component in the design menu. 
+
+## Component Variants
+
+When you make one component, you use the create component button.
+
+But, if you want to create another version of the button with additional or different features, you can duplicate the buttons, and then add the effects/changes to the other copies of the component. 
+
+Maybe you need to have an inactive button view, or an outline button instead of a full color button. When that happens, you just need to re-name each of the frames of the button, and then use the same button at the top of the screen to create each as a different component because of the unique names. 
+
+If you want to have 12 versions of one component, Figma gives you the ability to create component variants.
+
+You start from the first version, and then go to the variants section of the design tab. This will add a variant of the button component, which will add a duplicate item below the master component. You have to change the variants slightly from the master to make sure they are saved. 
+
+Using these variants, you can create as many variations as you need. 
+
+All the components are kept within the same master component frame. 
+
+Once you have the number of duplicates you need, you can start changing each of the components.
+
+You can even add properties to the variants by clicking the three dot menu on the variants tab. These properties will vary between the duplicates. 
+
+You can use the property name to give each variant a name, then you can add the state property to note which state the variant represents, and even add a description to really detail when the variant should be used. 
+
+
+
+
 
 
 
