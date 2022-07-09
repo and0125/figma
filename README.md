@@ -332,6 +332,10 @@ You can even add properties to the variants by clicking the three dot menu on th
 
 You can use the property name to give each variant a name, then you can add the state property to note which state the variant represents, and even add a description to really detail when the variant should be used. 
 
+## Creating Layouts
+
+There are layout templates already available in Figma to pull from in the frame menu. These are the blank screens we can work from. There are several 
+
 
 
 
