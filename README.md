@@ -334,7 +334,158 @@ You can use the property name to give each variant a name, then you can add the 
 
 ## Creating Layouts
 
-There are layout templates already available in Figma to pull from in the frame menu. These are the blank screens we can work from. There are several 
+There are layout templates already available in Figma to pull from in the frame menu. These are the blank screens we can work from.
+
+Once you have a layout selected you can use the design tab to find the place to add a layout grid. 
+
+These grids help to maintain spacing in your design. 
+
+You can change the grid size by clicking on the layout grid options button. The default grid size is 8px, red color, and an opacity of 10%. 
+
+The grid also allows you to know the exact margin size between elements in the design. 
+
+When you want to view the layout without the grid, there's a make grid invisible button (the open eye next to the grid layout options)
+
+The grid has the option to become a column grid as well. Keep this set to stretch, which is a property to make the columns responsive to different sizes. 
+
+There is also an overall margin space of your layout, to give spacing between the content and the side of the browser. This defines what is called the container of the design. THis is a common design pattern nowadays. 
+
+The margin size of the container may vary between sites, but it is consistent from the top to the bottom of the website. 
+
+The column grid can help you define the margin space of the container. The columns can be meant to stay in the container of the layout, and there is an option to choose the margin size of the container in the column grid properties. This property will add edge spaces to the columns that exist. 
+
+There's also a `cutter` property that defines the whitespace in between the columns.
+
+You can use the grid to make sure the alignment and size of objects are exactly the same to make objects consistent in your design. 
+
+You should avoid using your own discretion for defining the margin between objects so that you can tell developers exactly what the spacing is. 
+
+You can set up row grids to have these on top of the column grid. This grid has the same properties as the column grid. 
+
+For the row grid, they recommend keeping the spacing between the rows as multiples of 8px (so 8,16,24,32,64,etc). 
+
+Then you can make the grids invisible to evaluate the designs without the grids. 
+
+
+### Responsive Design
+
+Its important to design your website with all sizes of screen in mind, especially mobile, because a lot of people will be using phones to access these pages.
+
+There's a device toggle tool in the inspect panel in chrome. This will allow you to see how a website looks on different screens. 
+
+One of the key changes between the screen sizes is the margin of the container. Thats because a desktop screen has a lot more side space than a mobile screen.
+
+For Mobile designs, the site may stack things vertically that used to be in a row, or reduce navigation links into a hamburger menu. 
+
+this is called responsive design -- the design is consistent from screen to screen and adjusts to acount for the size of the screen the site. Always be more concerned by the width of the site than the height of the site, because the width is what changes drastically from screen to screen.
+
+The screen toggle button has several options much like figma.
+
+
+## Design Systems
+
+This is a combination of the style library and the component library. In design systems there may be additional documentation, tokens, stickers, or other things, but the core pieces are the components and the style library.
+
+One of the ways designers follow Jakob's principle is to build designs starting from a style library. One popular style library is the material UI library.
+
+A syle library is made up of:
+
+- shadow styles
+- grid styles
+- color styles 
+- text styles
+
+You can create your own style library based on the material design library. 
+
+There are 3 versions of the Material design guide. 
+
+### Defining Shadow styles
+
+You can pick any shape, with any color, and then use them to define the shadow style with these shapes being in a frame. 
+
+You can search for these styles in the material.io documentation. 
+
+There are a number of shadows defined, and you can import these into a Figma project.
+
+The different shadow styles are defined by the dp elevation. You can choose any of the dp elevations that you want, and you can try them out. 
+
+Once you add a shadow to an object in Figma, you can set the properties to the same values in the material.io documentation to match their shadow effect.
+
+### Defining Grid Styles
+
+These are useful for navigating different display layouts. 
+
+You do this by making a frame at the size you want, then add a layout grid with the styles in the `adaptive design` section in the material.io documentation. 
+
+Look at hte responsive layout grid, and it will tell you what size you should use for the margins columns and gutters. 
+
+The breakpoint range defines the width values for different display sizes. These breakpoints are the pixel sizes of the width of the display. 
+
+This table defines the number of columns you should use for that frame, and the size of the margins for the frame you are designing.
+
+you can multiply the suggested margin by any integer to change the width to different sizes, but its recommended to follow what's provided. 
+
+You'll go to `responsive design` to find the breakpoint table for the gutter specifications.
+
+There is no row grid design guides, because the width is more important to adjust in responsive design, way more important than the heights. 
+
+The instructor's settings for row grids are:
+
+- count: 800
+- type: center
+- color: black
+- opacity: 20%
+- gutter: 0
+- hieght: 8
+
+You can save the combination of the row and column grid styles as a single grid layout for the device you want to work on. 
+
+Repeat this process for the desktop, tablet, and phone display sizes. 
+
+Use the `W` property in the frame design tab to figure out what breakpoints to use from the design guide. 
+
+You should define a grid layout for each of the breakpoint sizes in the material design guide. 
+
+Once you save the layout grid, you can then add the layout grid as a starting point for another frame to start designing a diffferent page of the website or mobile app. 
+
+you can even stretch the height of the frame with the layout grid to better suit the display you are designing for. 
+
+### Color System
+
+A color system is divided into two sets:
+
+- key colors
+    - accent colors
+    - neutral colors
+- tonal palettes
+
+The key colors have the two subcategories above. Under the accent color there are primary, secondary, and tertiary key color.
+
+There are two neutral key colors (primary and secondary).
+
+The accent primrary key color is defined to be used in certain elements in the page, and this is used for prominent features in your page. 
+
+Each color has a role it serves, and the material design guide gives you the elements of the page that should be colored with specific colors.
+
+The idea is that you'll need at least five colors to build your website.
+
+There is also instructions for colors to use when elements are on top of the other colors, like buttons sitting on top of container/background colors. These are called roles. 
+
+For each of the colors you want to create:
+
+- the main color for a container
+- the color for an icon on top of the main color
+- a secondary container color
+- the color for an icon on top of the secondary container
+
+This is for each of the accent colors, and the neutral colors. 
+
+The on-top-of color schemes should be in contrast to the container color scheme. 
+
+
+
+
+
 
 
 
