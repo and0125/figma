@@ -482,6 +482,60 @@ This is for each of the accent colors, and the neutral colors.
 
 The on-top-of color schemes should be in contrast to the container color scheme. 
 
+There are several different colors to include in a color system:
+
+- primary key color 
+    - primary
+    - on top of primary color
+    - primary container 
+    - on top of primary container color
+- secondary key color
+    - secondary 
+    - on top of secondary color
+    - secondary container
+    - on top of secondary container color
+- tertiary key color
+    - tertiary
+    - on top of tertiary
+    - tertiary container
+    - on top of tertiary container color
+- Neutral Key Color
+    - background color
+    - on background
+    - surface color
+    - on surface
+- neutral variant key color
+    - surface variant
+    - on surface variant
+    - outline color
+
+This is a total of 19 colors as a standard for a color system.
+
+There are different additional colors like error colors, which could be red or unique colors of red for your site. There are also four error colors, like a key color. Having your error colors be the exact same as in the material design guide is fine, since these are commonly used for errors.
+
+## Custom colors
+
+You can also create custom colors, or gradient colors. These should be usedd sparingly and not throughout the whole site design.
+
+## Text Styles
+
+Use the typography page in the material design guide to base this text styles from. 
+
+You'll need five types of text styles:
+
+- Display text: meant for short big words, can be in a handwritting based text. Meant for large screens.
+    - large
+    - medium
+    - small
+- headline text: best for short high emphasis text on smaller screens.
+- title text: smaller than the above. For shorter, medium emphasis text.These shouldn't have really detailed/ fancy fonts.
+- label text: on buttons and menus; smaller than titles or text. 
+- body text:  used to write more details, longer passages. Use typefaces intended for body styles. Avoid expressive fonts. 
+
+
+
+
+
 
 
 
